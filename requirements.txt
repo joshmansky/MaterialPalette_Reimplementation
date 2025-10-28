@@ -1,0 +1,13 @@
+numpy==1.26.4 # Specific version from conda, satisfies <2.0
+diffusers==0.19.3
+peft==0.5.0
+opencv-python # Use pip package name
+jsonargparse
+easydict
+transformers==4.35.0 # Updated version
+datasets==2.14.5
+pyarrow==14.0.2
+accelerate
+bitsandbytes # Required for 8-bit Adam if used
+scikit-learn
+#pytorch-lightning==1.8.3

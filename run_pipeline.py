@@ -39,7 +39,7 @@ GENERATED_TEXTURE_DIR = Path("generated_textures") # Where the final texture is 
 PBR_MAPS_OUTPUT_DIR = Path("pbr_material_maps") # Where final PBR maps are saved
 
 # Model Weights
-DECOMPOSITION_WEIGHTS_FILENAME = "decomposition_model.ckpt" # Must be in the root
+DECOMPOSITION_WEIGHTS_FILENAME = "model.ckpt" # Must be in the root
 
 # LoRA Training Settings (Override defaults from lora_finetuning.py if needed)
 LORA_TRAINING_OVERRIDES = {
